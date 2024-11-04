@@ -7,6 +7,9 @@ module.exports = {
         lightGray: "#D1D5DB",
         smokedBlue: "#7995fb",
       },
+      fontFamily: {
+        sans: ['"Nunito Sans"', "sans-serif"],
+      },
     },
   },
   plugins: [],
