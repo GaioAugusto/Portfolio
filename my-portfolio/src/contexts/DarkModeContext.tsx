@@ -23,10 +23,9 @@ export const DarkModeProvider: React.FC<{ children: ReactNode }> = ({
   );
 };
 
-export const useDarkMode = () => {
+export const useDarkMode = (): DarkModeContextProps => {
   const context = useContext(DarkModeContext);
-  if (!context) {
+  if (!context)
     throw new Error("useDarkMode must be used within a DarkModeProvider");
-  }
   return context;
 };
