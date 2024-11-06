@@ -1,4 +1,5 @@
-import { DarkModeSwitch } from "../DarkModeSwitch";
+import { DarkModeSwitch } from "../Switches/DarkModeSwitch";
+import { LanguageSwitch } from "../Switches/LanguageSwitch";
 import { MenuViewProps } from "./types";
 
 type ComponentType = React.FC<MenuViewProps>;
@@ -11,18 +12,22 @@ export const MenuView: ComponentType = ({ theme, menuItems }) => {
         <div className="text-2xl font-bold">Gaio Santos</div>
         <ul className="hidden md:flex space-x-6">
           {menuItems.map((item) => (
-            <li key={item.label}>
+            <li key={item.label} className="relative group">
               <a
                 href={item.href}
-                className="hover:text-blue-500 transition-colors"
+                className={`${theme.hover} transition-colors`}
               >
                 {item.label}
               </a>
+              <span
+                className={`absolute bottom-0 left-0 w-0 h-0.5 ${theme.selected_bg} transition-all duration-300 group-hover:w-full`}
+              ></span>
             </li>
           ))}
         </ul>
         <div className="flex items-center space-x-4">
           <DarkModeSwitch />
+          <LanguageSwitch />
         </div>
       </div>
     </nav>

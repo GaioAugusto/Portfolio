@@ -1,0 +1,13 @@
+{
+  "common": {
+    "welcome": "Welcome",
+    "home": "Home",
+    "about": "About me",
+    "projects": "Projects",
+    "experience": "Professional Experience",
+    "contact": "Contact"
+  },
+  "templates": {
+    "welcomeDescription": "Be welcome to BRASA's UOFT official website"
+  }
+}

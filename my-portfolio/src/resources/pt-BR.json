@@ -1,0 +1,13 @@
+{
+  "common": {
+    "welcome": "Bem-vindo",
+    "home": "Menu",
+    "about": "Sobre mim",
+    "projects": "Projetos",
+    "experience": "Experiência Profissional",
+    "contact": "Contato"
+  },
+  "templates": {
+    "welcomeDescription": "Seja bem-vindo ao site oficial da BRASA UOFT"
+  }
+}

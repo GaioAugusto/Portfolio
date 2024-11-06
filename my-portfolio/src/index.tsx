@@ -4,6 +4,7 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { DarkModeProvider } from "./contexts/DarkModeContext";
+import { LocaleProvider } from "./contexts/Locale";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -11,7 +12,9 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <DarkModeProvider>
-      <App />
+      <LocaleProvider>
+        <App />
+      </LocaleProvider>
     </DarkModeProvider>
   </React.StrictMode>
 );
