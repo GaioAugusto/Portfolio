@@ -11,11 +11,10 @@ export const DarkModeSwitchView: ComponentType = (props) => {
       onToggle={props.onToggle}
       onColor="bg-smokedBlue" // Custom color for dark mode
       offColor="bg-lightGray" // Custom color for light mode
-      // Moon icon with conditional color
       rightIcon={
         <MoonIcon
           className={`w-5 h-5 ${
-            props.isDarkMode ? "text-yellow-400" : "text-black"
+            props.isDarkMode ? "text-yellow-500" : "text-black"
           }`}
         />
       }
