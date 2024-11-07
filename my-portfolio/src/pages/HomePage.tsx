@@ -14,6 +14,7 @@ const HomePage: React.FC = () => {
         <Home next="#about" />
         <Divider />
         <About />
+        <Divider />
       </main>
     </div>
   );
