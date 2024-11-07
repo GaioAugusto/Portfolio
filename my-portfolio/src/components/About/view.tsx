@@ -8,6 +8,13 @@ type ComponentType = React.FC<AboutViewProps>;
 export const AboutView: ComponentType = ({ theme }) => {
   const { commonLocale, templatesLocale } = useClientLocale();
 
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = `${process.env.PUBLIC_URL}/Resume.pdf`;
+    link.download = "GaioSantos_Resume.pdf";
+    link.click();
+  };
+
   return (
     <section
       id="about"
@@ -36,7 +43,10 @@ export const AboutView: ComponentType = ({ theme }) => {
               </li>
             ))}
           </ul>
-          <button className="mt-6 flex flex-row bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 transition">
+          <button
+            onClick={handleDownload}
+            className="mt-6 flex flex-row bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 transition"
+          >
             <span>{commonLocale.get("downloadCV")}</span>
             <DocumentTextIcon className="h-5 w-5" />
           </button>
