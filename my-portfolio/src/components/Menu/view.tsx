@@ -9,7 +9,9 @@ export const MenuView: ComponentType = ({ theme, menuItems }) => {
       className={`${theme.menuBackground} ${theme.text} shadow-md fixed top-0 left-0 w-full z-10 font-sans`}
     >
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
-        <div className="text-2xl font-bold">Gaio Santos</div>
+        <a href="#home" className="text-2xl font-bold">
+          Gaio Santos
+        </a>{" "}
         <ul className="hidden md:flex space-x-6">
           {menuItems.map((item) => (
             <li key={item.label} className="relative group">
