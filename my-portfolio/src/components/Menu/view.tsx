@@ -20,7 +20,7 @@ export const MenuView: ComponentType = ({ theme, menuItems }) => {
                 {item.label}
               </a>
               <span
-                className={`absolute bottom-0 left-0 w-0 h-0.5 ${theme.selected_bg} transition-all duration-300 group-hover:w-full`}
+                className={`absolute bottom-0 left-0 w-0 h-0.5 ${theme.selected_bg} transition-all duration-500 group-hover:w-full`}
               ></span>
             </li>
           ))}

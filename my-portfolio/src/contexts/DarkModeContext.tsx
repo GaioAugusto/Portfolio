@@ -12,7 +12,7 @@ const DarkModeContext = createContext<DarkModeContextProps | undefined>(
 export const DarkModeProvider: React.FC<{ children: ReactNode }> = ({
   children,
 }) => {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(true);
 
   const toggleDarkMode = () => setIsDarkMode((prev) => !prev);
 

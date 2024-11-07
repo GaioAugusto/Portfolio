@@ -5,4 +5,9 @@ export interface CommonStrings {
   projects: string;
   experience: string;
   contact: string;
+  softwareEngineer: string;
+  computerEngineer: string;
+  devFullStack: string;
+  Iam: string;
+  downloadCV: string;
 }

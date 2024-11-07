@@ -8,9 +8,9 @@ export interface Theme {
 }
 
 export const lightTheme: Theme = {
-  background: "bg-white",
+  background: "bg-amber-100",
   hover: "hover:text-blue-500",
-  menuBackground: "bg-white",
+  menuBackground: "bg-amber-100",
   selected_bg: "bg-blue-500",
   selected_text: "text-blue-500",
   text: "text-gray-900",

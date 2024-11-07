@@ -1,11 +1,21 @@
 import React from "react";
+import { Menu } from "../components/Menu";
+import { About } from "../components/About";
+import { Home } from "../components/Home";
+import { Divider } from "../components/Divider";
 
 const HomePage: React.FC = () => {
   return (
-    <main className="flex flex-col items-center">
-      {/* <DarkModeSwitch /> */}
-      {/* Add other sections here */}
-    </main>
+    <div className="bg-gray-900 text-white">
+      {" "}
+      <Menu />
+      <main>
+        {" "}
+        <Home next="#about" />
+        <Divider />
+        <About />
+      </main>
+    </div>
   );
 };
 

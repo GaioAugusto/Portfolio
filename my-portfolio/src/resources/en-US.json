@@ -5,9 +5,15 @@
     "about": "About me",
     "projects": "Projects",
     "experience": "Professional Experience",
-    "contact": "Contact"
+    "contact": "Contact",
+    "softwareEngineer": "Software Engineer",
+    "computerEngineer": "Computer Engineer",
+    "devFullStack": "Full-Stack Developer",
+    "Iam": "I am a ",
+    "downloadCV": "Download CV"
   },
   "templates": {
-    "welcomeDescription": "Be welcome to BRASA's UOFT official website"
+    "welcomeDescription": "Be welcome to BRASA's UOFT official website",
+    "introduction": "Hello! I'm a 3rd year Computer Engineering student at the University of Toronto, interested in software development and artificial intelligence. From my education and past professional experiences, I have developed solid technical skills in various technologies and programming languages."
   }
 }
