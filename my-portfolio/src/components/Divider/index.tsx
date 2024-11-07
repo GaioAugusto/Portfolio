@@ -4,7 +4,7 @@ import { DividerProps } from "./types";
 import { DividerView } from "./view";
 
 type ComponentType = React.FC<DividerProps>;
-export const Divider: ComponentType = () => {
+export const Divider: ComponentType = (props) => {
   const { isDarkMode } = useDarkMode();
   const theme = getTheme(isDarkMode);
   return <DividerView theme={theme} />;

@@ -5,8 +5,11 @@ interface FadeProp {
   transition: string;
 }
 
-export interface HomeProps {}
+export interface HomeProps {
+  next: string;
+}
 export interface HomeViewProps {
+  next: string;
   theme: Theme;
   fadeProp: FadeProp;
   phrases: string[];

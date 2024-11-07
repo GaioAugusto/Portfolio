@@ -5,10 +5,15 @@
     "about": "Sobre mim",
     "projects": "Projetos",
     "experience": "Experiência Profissional",
-    "contact": "Contato"
+    "contact": "Contato",
+    "softwareEngineer": "Engenheiro de software",
+    "computerEngineer": "Engenheiro de computação",
+    "devFullStack": "Desenvolvedor Full-Stack",
+    "Iam": "Eu sou um ",
+    "downloadCV": "Baixar currículo"
   },
   "templates": {
     "welcomeDescription": "Seja bem-vindo ao site oficial da BRASA UOFT",
-    "introduction": "Olá! Eu sou um estudante do terceiro ano de engenharia de computação na Universidade de Toronto, interessado em desevolvimento de software e inteligência artificial. Abaixo você pode explorar meus projetos e minhas experiências profissionais"
+    "introduction": "Olá! Eu sou um estudante do terceiro ano de engenharia de computação na Universidade de Toronto, interessado em desevolvimento de software e inteligência artificial. Graças à minha educação e experiências, profissionais e em projetos, eu desenvolvi sólidas habilidades técnicas in diversas tecnologias e linguagens de programação."
   }
 }

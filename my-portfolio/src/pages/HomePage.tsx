@@ -1,25 +1,3 @@
-// import React from "react";
-// import { Menu } from "../components/Menu";
-// import { About } from "../components/About";
-// import { Home } from "../components/Home";
-
-// const HomePage: React.FC = () => {
-//   return (
-//     <div>
-//       {" "}
-//       {/* Adjust background as needed */}
-//       <Menu />
-//       <main className="pt-16">
-//         {" "}
-//         <Home />
-//         <About />
-//       </main>
-//     </div>
-//   );
-// };
-
-// export default HomePage;
-
 import React from "react";
 import { Menu } from "../components/Menu";
 import { About } from "../components/About";
@@ -33,7 +11,7 @@ const HomePage: React.FC = () => {
       <Menu />
       <main>
         {" "}
-        <Home />
+        <Home next="#about" />
         <Divider />
         <About />
       </main>

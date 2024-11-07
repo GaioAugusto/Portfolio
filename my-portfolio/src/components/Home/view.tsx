@@ -1,3 +1,4 @@
+import useClientLocale from "../../utilities/useClientLocale";
 import { ArrowButton } from "../ArrowButton";
 import { HomeViewProps } from "./types";
 
@@ -7,7 +8,10 @@ export const HomeView: ComponentType = ({
   fadeProp,
   phrases,
   currentPhraseIndex,
+  ...props
 }) => {
+  const { commonLocale } = useClientLocale();
+
   return (
     <section
       id="home"
@@ -32,14 +36,14 @@ export const HomeView: ComponentType = ({
             ...fadeProp,
           }}
         >
-          <span className={`${theme.text}`}>I am a </span>
+          <span className={`${theme.text}`}>{commonLocale.get("Iam")}</span>
           <span className={`${theme.selected_text}`}>
             {phrases[currentPhraseIndex]}
           </span>
         </p>
       </div>
       <div className="pt-9">
-        <ArrowButton />
+        <ArrowButton next={props.next} />
       </div>
     </section>
   );

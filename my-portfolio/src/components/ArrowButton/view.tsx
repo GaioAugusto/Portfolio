@@ -2,12 +2,12 @@ import { gradientClass } from "../../utilities/gradientClass";
 import { ArrowButtonViewProps } from "./types";
 
 type ComponentType = React.FC<ArrowButtonViewProps>;
-export const ArrowButtonView: ComponentType = ({ theme }) => {
+export const ArrowButtonView: ComponentType = ({ theme, ...props }) => {
   const gradient = gradientClass(theme);
 
   return (
     <a
-      href="#about"
+      href={props.next}
       className="relative flex items-center justify-center w-16 h-16 rounded-full transition-all duration-200 transform hover:scale-110"
     >
       {/* Gradient Border */}
