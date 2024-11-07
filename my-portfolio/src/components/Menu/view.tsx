@@ -9,7 +9,10 @@ export const MenuView: ComponentType = ({ theme, menuItems }) => {
       className={`${theme.menuBackground} ${theme.text} shadow-md fixed top-0 left-0 w-full z-10 font-sans`}
     >
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
+        {/* Site Title */}
         <div className="text-2xl font-bold">Gaio Santos</div>
+
+        {/* Menu Items */}
         <ul className="hidden md:flex space-x-6">
           {menuItems.map((item) => (
             <li key={item.label} className="relative group">
@@ -25,6 +28,8 @@ export const MenuView: ComponentType = ({ theme, menuItems }) => {
             </li>
           ))}
         </ul>
+
+        {/* Dark Mode and Language Switch */}
         <div className="flex items-center space-x-4">
           <DarkModeSwitch />
           <LanguageSwitch />

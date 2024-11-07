@@ -8,6 +8,7 @@
     "contact": "Contact"
   },
   "templates": {
-    "welcomeDescription": "Be welcome to BRASA's UOFT official website"
+    "welcomeDescription": "Be welcome to BRASA's UOFT official website",
+    "introduction": "Hello! I'm a 3rd year Computer Engineering student at the University of Toronto, interested in software development and artificial intelligence. You can find below my past projects and professional experience that made me who I am"
   }
 }

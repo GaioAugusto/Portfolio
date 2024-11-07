@@ -5,7 +5,7 @@ import { Menu } from "./components/Menu";
 const App: React.FC = () => {
   return (
     <React.Fragment>
-      <Menu />
+      {/* <Menu /> */}
       <HomePage />
     </React.Fragment>
   );
