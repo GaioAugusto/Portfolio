@@ -3,15 +3,22 @@ import profilePic from "../../assets/images/profilePic.jpg";
 import listOfSkills from "./utilities/listOfSkills";
 import useClientLocale from "../../utilities/useClientLocale";
 import { DocumentTextIcon } from "@heroicons/react/16/solid";
+import { useLocale } from "../../contexts/Locale";
 
 type ComponentType = React.FC<AboutViewProps>;
 export const AboutView: ComponentType = ({ theme }) => {
   const { commonLocale, templatesLocale } = useClientLocale();
+  const { locale } = useLocale();
 
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = `${process.env.PUBLIC_URL}/Resume.pdf`;
-    link.download = "GaioSantos_Resume.pdf";
+    if (locale === "pt-BR") {
+      link.href = `${process.env.PUBLIC_URL}/curriculo.pdf`;
+      link.download = "GaioSantos_Curriculo.pdf";
+    } else {
+      link.href = `${process.env.PUBLIC_URL}/resume.pdf`;
+      link.download = "GaioSantos_Resume.pdf";
+    }
     link.click();
   };
 
