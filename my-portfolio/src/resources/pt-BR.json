@@ -14,6 +14,12 @@
   },
   "templates": {
     "welcomeDescription": "Seja bem-vindo ao site oficial da BRASA UOFT",
-    "introduction": "Olá! Eu sou um estudante do terceiro ano de engenharia de computação na Universidade de Toronto, interessado em desevolvimento de software e inteligência artificial. Graças à minha educação e experiências, profissionais e em projetos, eu desenvolvi sólidas habilidades técnicas em diversas tecnologias e linguagens de programação."
+    "introduction": "Olá! Eu sou um estudante do terceiro ano de engenharia de computação na Universidade de Toronto, interessado em desevolvimento de software e inteligência artificial. Graças à minha educação e experiências, profissionais e em projetos, eu desenvolvi sólidas habilidades técnicas em diversas tecnologias e linguagens de programação.",
+    "btg": "O BTG Pactual é o maior banco de investimentos da América Latina e opera em diversos segmentos, como Investment Banking, Corporate Lending, Sales & Trading, Wealth Management e Asset Management.",
+    "btgRole": "Trabalhei desenvolvendo diversas funcionalidades para a plataforma de Wealth Management do banco.",
+    "btgPosition": "IT Analyst",
+    "abix": "A maior locadora de sistemas de comunicação crítica do Brasil. especialista em alugar sistemas de radiocomunicação e câmeras de segurança (CFTV)",
+    "abixRole": "Trabalhei desenvolvendo componentes e novas funcionalidades para a plataforma de gerenciamento interno da empresa",
+    "abixPosition": "Engenheiro de software"
   }
 }

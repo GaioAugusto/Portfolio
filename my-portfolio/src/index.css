@@ -28,3 +28,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+/* Custom animations */
+@layer utilities {
+  .slide-in-start {
+    opacity: 0;
+    transform: translateX(100px);
+    transition: all 0.5s ease-out;
+  }
+
+  .slide-in {
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 0.5s ease-out;
+  }
+}

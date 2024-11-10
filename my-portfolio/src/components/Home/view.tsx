@@ -15,7 +15,7 @@ export const HomeView: ComponentType = ({
   return (
     <section
       id="home"
-      className={`h-screen flex flex-col items-center justify-center text-center px-4 md:px-12 lg:px-24 ${theme.background}`}
+      className={`h-screen flex flex-col items-center justify-center text-center px-4 md:px-12 lg:px-24 ${theme.background} transition-colors duration-500 ease-out`}
     >
       <div className="flex flex-col items-center">
         <h1

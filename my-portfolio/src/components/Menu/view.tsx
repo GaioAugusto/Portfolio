@@ -6,7 +6,7 @@ type ComponentType = React.FC<MenuViewProps>;
 export const MenuView: ComponentType = ({ theme, menuItems }) => {
   return (
     <nav
-      className={`${theme.menuBackground} ${theme.text} shadow-md fixed top-0 left-0 w-full z-10 font-sans`}
+      className={`${theme.background} ${theme.text} shadow-md fixed top-0 left-0 w-full z-10 font-sans transition-colors duration-500 ease-out`}
     >
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         <a href="#home" className="text-2xl font-bold">
