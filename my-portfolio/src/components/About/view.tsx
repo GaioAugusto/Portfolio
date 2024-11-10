@@ -1,24 +1,17 @@
 import { AboutViewProps } from "./types";
 import profilePic from "../../assets/images/profilePic.jpg";
 import listOfSkills from "./utilities/listOfSkills";
-import useClientLocale from "../../utilities/useClientLocale";
 import { DocumentTextIcon } from "@heroicons/react/16/solid";
+import { useLocale } from "../../contexts/Locale";
 
 type ComponentType = React.FC<AboutViewProps>;
-export const AboutView: ComponentType = ({ theme }) => {
-  const { commonLocale, templatesLocale } = useClientLocale();
-
-  const handleDownload = () => {
-    const link = document.createElement("a");
-    link.href = `${process.env.PUBLIC_URL}/Resume.pdf`;
-    link.download = "GaioSantos_Resume.pdf";
-    link.click();
-  };
+export const AboutView: ComponentType = ({ theme, handleDownload }) => {
+  const { commonLocale, templatesLocale } = useLocale();
 
   return (
     <section
       id="about"
-      className={`py-16 px-6 md:px-12 lg:px-24 ${theme.background}`}
+      className={`py-16 px-6 md:px-12 lg:px-24 ${theme.background} transition-colors duration-500 ease-out`}
     >
       <div className="max-w-screen-lg mx-auto flex flex-col md:flex-row items-center md:space-x-12">
         <div className="flex-1">
