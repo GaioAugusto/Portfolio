@@ -28,19 +28,19 @@ export const HomeView: ComponentType = ({
         >
           Gaio Santos
         </h1>
-        <p
-          className="text-2xl mb-8"
-          style={{
-            fontFamily: "'Poppins', sans-serif",
-            fontSize: "4.5rem",
-            ...fadeProp,
-          }}
-        >
-          <span className={`${theme.text}`}>{commonLocale.get("Iam")}</span>
-          <span className={`${theme.selected_text}`}>
-            {phrases[currentPhraseIndex]}
-          </span>
-        </p>
+        <div className="flex w-full justify-center">
+          <p
+            className="flex flex-row text-7xl pb-8 w-[80%] whitespace-nowrap gap-4"
+            style={{
+              fontFamily: "'Poppins', sans-serif",
+            }}
+          >
+            <span className={`${theme.text}`}>{commonLocale.get("Iam")}</span>
+            <span className={`${theme.selected_text}`} style={{ ...fadeProp }}>
+              {phrases[currentPhraseIndex]}
+            </span>
+          </p>
+        </div>
       </div>
       <div className="pt-9">
         <ArrowButton next={props.next} />
