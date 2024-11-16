@@ -4,6 +4,7 @@ import { About } from "../components/About";
 import { Home } from "../components/Home";
 import { Divider } from "../components/Divider";
 import { Experience } from "../components/Experience";
+import { Footer } from "../components/Footer";
 
 const HomePage: React.FC = () => {
   return (
@@ -18,6 +19,7 @@ const HomePage: React.FC = () => {
         <Divider />
         <Experience />
         <Divider />
+        <Footer />
       </main>
     </div>
   );
