@@ -1,23 +1,31 @@
+import { useLocale } from "../../contexts/Locale";
 import { FooterViewProps, socialMedia } from "./types";
 
 type ComponentType = React.FC<FooterViewProps>;
 export const FooterView: ComponentType = ({ socialLinks, theme }) => {
+  const { commonLocale, templatesLocale } = useLocale();
   // text-gray-300 is good for first classname text
   // for want to chat was using text-gray-400
   return (
     <section id="contact">
-      <footer className={`${theme.background} ${theme.text} py-10 id-#contact`}>
+      <footer
+        className={`${theme.background} ${theme.text} py-10 id-#contact theme-transition`}
+      >
         {/* Top Section */}
         <div className="max-w-screen-lg mx-auto text-center mb-6">
-          <h2 className="text-2xl font-bold mb-2">Let’s Connect</h2>
-          <p className={`${theme.text}`}>
-            Want to chat? Reach out at{" "}
-            <a
-              href="mailto:hello@gaioaugusto.com"
-              className="text-blue-500 font-semibold underline hover:text-blue-400"
-            >
-              gaio.santos@mail.utoronto.ca
-            </a>
+          <h2 className={`header ${theme.text}`}>
+            {commonLocale.get("getInTouch")}
+          </h2>
+          <p className={`text-2xl ${theme.text}`}>
+            <span>{`${templatesLocale.get("connect")} `}</span>
+            <span>
+              <a
+                href="mailto:gaio.santos@mail.utoronto.ca"
+                className="text-blue-500 hover:underline"
+              >
+                gaio.santos@mail.utoronto.ca
+              </a>
+            </span>
           </p>
         </div>
 

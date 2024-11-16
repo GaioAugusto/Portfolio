@@ -10,7 +10,8 @@
     "computerEngineer": "Computer Engineer",
     "devFullStack": "Full-Stack Developer",
     "Iam": "I am a ",
-    "downloadCV": "Download CV"
+    "downloadCV": "Download CV",
+    "getInTouch": "Get in Touch"
   },
   "templates": {
     "welcomeDescription": "Be welcome to BRASA's UOFT official website",
@@ -20,6 +21,7 @@
     "btgPosition": "It Analyst",
     "abix": "Abix is the largest critical communication systems rental company in Brazil, specializing in renting radio communication systems and security cameras (CCTV).",
     "abixRole": "I worked on developing components and new features for the company's internal management platform.",
-    "abixPosition": "Software Engineering Intern"
+    "abixPosition": "Software Engineering Intern",
+    "connect": "Want to chat? Send me an email to"
   }
 }

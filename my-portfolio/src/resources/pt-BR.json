@@ -10,7 +10,8 @@
     "computerEngineer": "Engenheiro de computação",
     "devFullStack": "Desenvolvedor Full-Stack",
     "Iam": "Eu sou um ",
-    "downloadCV": "Baixar currículo"
+    "downloadCV": "Baixar currículo",
+    "getInTouch": "Entre em contato"
   },
   "templates": {
     "welcomeDescription": "Seja bem-vindo ao site oficial da BRASA UOFT",
@@ -20,6 +21,7 @@
     "btgPosition": "IT Analyst",
     "abix": "A maior locadora de sistemas de comunicação crítica do Brasil. especialista em alugar sistemas de radiocomunicação e câmeras de segurança (CFTV)",
     "abixRole": "Trabalhei desenvolvendo componentes e novas funcionalidades para a plataforma de gerenciamento interno da empresa",
-    "abixPosition": "Engenheiro de software"
+    "abixPosition": "Engenheiro de software",
+    "connect": "Quer conversar? Envie um email para"
   }
 }

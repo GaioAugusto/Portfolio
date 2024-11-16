@@ -42,3 +42,16 @@ code {
     transition: all 0.5s ease-out;
   }
 }
+
+@layer components {
+  .header {
+    @apply text-4xl font-bold mb-4 text-gray-900; /* Default text color */
+    font-family: "Montserrat", sans-serif;
+    font-size: 5rem;
+    line-height: 1.1;
+  }
+
+  .theme-transition {
+    @apply transition-colors duration-500 ease-out;
+  }
+}

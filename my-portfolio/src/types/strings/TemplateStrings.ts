@@ -7,4 +7,5 @@ export interface TemplateStrings {
   abix: string;
   abixRole: string;
   abixPosition: string;
+  connect: string;
 }

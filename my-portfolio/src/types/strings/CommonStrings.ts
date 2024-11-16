@@ -10,4 +10,5 @@ export interface CommonStrings {
   devFullStack: string;
   Iam: string;
   downloadCV: string;
+  getInTouch: string;
 }

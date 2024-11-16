@@ -31,7 +31,7 @@ export const AboutView: ComponentType = ({ theme, handleDownload }) => {
                 className="flex items-center"
                 style={{ fontFamily: "'Poppins', sans-serif" }}
               >
-                <span className="text-blue-500 mr-2">▶</span>
+                <span className="text-blue-500 mr-2">•</span>
                 {item}
               </li>
             ))}
