@@ -11,4 +11,5 @@ export interface CommonStrings {
   Iam: string;
   downloadCV: string;
   getInTouch: string;
+  viewProject: string;
 }

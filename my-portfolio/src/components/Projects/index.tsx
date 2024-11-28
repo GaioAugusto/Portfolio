@@ -10,7 +10,7 @@ type ComponentType = React.FC<ProjectsProps>;
 export const Projects: ComponentType = () => {
   const { isDarkMode } = useDarkMode();
   const theme = getTheme(isDarkMode);
-  const { templatesLocale } = useLocale();
+  const { commonLocale, templatesLocale } = useLocale();
 
   const projects: Project[] = [
     {
@@ -30,7 +30,7 @@ export const Projects: ComponentType = () => {
         "Automation",
         "Scheduling",
       ],
-      buttonText: "View Project",
+      buttonText: commonLocale.get("viewProject"),
     },
     {
       title: "Parkour Racing Game",
@@ -38,7 +38,7 @@ export const Projects: ComponentType = () => {
       imageUrl: parkourScreenshot,
       deployedUrl: "https://github.com/rohan-modi/SplitScreenRacer",
       skills: ["C", "FPGA"],
-      buttonText: "View Project",
+      buttonText: commonLocale.get("viewProject"),
     },
     // Add more projects as needed
   ];
