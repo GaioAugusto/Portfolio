@@ -5,6 +5,7 @@ import { Home } from "../components/Home";
 import { Divider } from "../components/Divider";
 import { Experience } from "../components/Experience";
 import { Footer } from "../components/Footer";
+import { Projects } from "../components/Projects";
 
 const HomePage: React.FC = () => {
   return (
@@ -16,6 +17,8 @@ const HomePage: React.FC = () => {
         <Home next="#about" />
         <Divider />
         <About />
+        <Divider />
+        <Projects />
         <Divider />
         <Experience />
         <Divider />

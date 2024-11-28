@@ -39,7 +39,7 @@ export const Home: ComponentType = (props) => {
       clearTimeout(fadeOutTimeout);
       clearTimeout(changePhraseTimeout);
     };
-  }, [currentPhraseIndex]);
+  }, [currentPhraseIndex, phrases.length]);
 
   return (
     <HomeView
