@@ -20,9 +20,10 @@
     "btgRole": "Trabalhei desenvolvendo diversas funcionalidades para a plataforma de Wealth Management do banco.",
     "btgPosition": "IT Analyst",
     "abix": "A maior locadora de sistemas de comunicação crítica do Brasil. especialista em alugar sistemas de radiocomunicação e câmeras de segurança (CFTV)",
-    "abixRole": "Trabalhei desenvolvendo componentes e novas funcionalidades para a plataforma de gerenciamento interno da empresa",
+    "abixRole": "Trabalhei desenvolvendo componentes e novas funcionalidades para a plataforma de gerenciamento interno da empresa.",
     "abixPosition": "Engenheiro de software",
     "connect": "Quer conversar? Envie um email para",
-    "currencyConverterDescription": "Plataforma de Conversão de Moedas projetada para fornecer taxas de câmbio em tempo real. O frontend é desenvolvido com TypeScript, React e Tailwind CSS. O backend, criado com Flask e Python, alimenta a API, buscando dados armazenados em um banco de dados PostgreSQL. Scripts de automação gerenciam atualizações diárias, buscando, processando e inserindo dados no banco de dados. Containerizado com Docker e implantado em Vercel e Render. Ferramentas de scheduling automatizam os processos do backend."
+    "currencyConverterDescription": "Plataforma de Conversão de Moedas projetada para fornecer taxas de câmbio em tempo real. O frontend é desenvolvido com TypeScript, React e Tailwind CSS. O backend, criado com Flask e Python, alimenta a API, buscando dados armazenados em um banco de dados PostgreSQL. Scripts de automação gerenciam atualizações diárias, buscando, processando e inserindo dados no banco de dados. Containerizado com Docker e implantado em Vercel e Render. Ferramentas de scheduling automatizam os processos do backend.",
+    "parkourGameDescription": "Jogo para 2 jogadores com tela dividida em C, feito para ser jogado num DE1-SoC board. Usa speakers para efeitos sonoros, monitor VGA com double buffering, e teclado com entrada PS2. A documentação no Github explica como simular na sua máquina."
   }
 }

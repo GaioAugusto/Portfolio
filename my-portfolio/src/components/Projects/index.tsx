@@ -34,8 +34,7 @@ export const Projects: ComponentType = () => {
     },
     {
       title: "Parkour Racing Game",
-      description:
-        "Two player split screen racing game in C, meant to be played on a DE1-SoC board. It uses Speakers for sound effects, VGA monitor with double buffering, and PS2 Keyboard. The documentation on Github explains how to simulate the project",
+      description: templatesLocale.get("parkourGameDescription"),
       imageUrl: parkourScreenshot,
       deployedUrl: "https://github.com/rohan-modi/SplitScreenRacer",
       skills: ["C", "FPGA"],

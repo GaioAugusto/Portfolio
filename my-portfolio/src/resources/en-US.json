@@ -17,12 +17,13 @@
     "welcomeDescription": "Be welcome to BRASA's UOFT official website",
     "introduction": "Hello! I'm a 3rd year Computer Engineering student at the University of Toronto, interested in software development and artificial intelligence. From my education and past professional experiences, I have developed solid technical skills in various technologies and programming languages.",
     "btg": "BTG Pactual is the largest investment bank in Latin America and operates in various sectors, such as Investment Banking, Corporate Lending, Sales & Trading, Wealth Management, and Asset Management.",
-    "btgRole": "I worked on developing various features for the bank's Wealth Management platform",
+    "btgRole": "I worked on developing various features for the bank's Wealth Management platform.",
     "btgPosition": "It Analyst",
     "abix": "Abix is the largest critical communication systems rental company in Brazil, specializing in renting radio communication systems and security cameras (CCTV).",
     "abixRole": "I worked on developing components and new features for the company's internal management platform.",
     "abixPosition": "Software Engineering Intern",
     "connect": "Want to chat? Send me an email to",
-    "currencyConverterDescription": "Currency Converter Platform designed to provide real-time exchange rates. The frontend is built with TypeScript, React, and Tailwind CSS. The backend, developed using Flask and Python, powers the API, fetching data stored in a PostgreSQL database. Automation scripts handle daily updates by fetching, parsing, and inserting data into the database. The entire stack is containerized with Docker and deployed using platforms like Vercel and Render. Scheduling tools automate backend processes."
+    "currencyConverterDescription": "Currency Converter Platform designed to provide real-time exchange rates. The frontend is built with TypeScript, React, and Tailwind CSS. The backend, developed using Flask and Python, powers the API, fetching data stored in a PostgreSQL database. Automation scripts handle daily updates by fetching, parsing, and inserting data into the database. The entire stack is containerized with Docker and deployed using platforms like Vercel and Render. Scheduling tools automate backend processes.",
+    "parkourGameDescription": "Two player split screen racing game in C, meant to be played on a DE1-SoC board. It uses Speakers for sound effects, VGA monitor with double buffering, and PS2 Keyboard. The documentation on Github explains how to simulate the project."
   }
 }

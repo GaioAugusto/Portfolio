@@ -9,4 +9,5 @@ export interface TemplateStrings {
   abixPosition: string;
   connect: string;
   currencyConverterDescription: string;
+  parkourGameDescription: string;
 }
