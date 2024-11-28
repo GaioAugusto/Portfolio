@@ -22,6 +22,7 @@
     "abix": "Abix is the largest critical communication systems rental company in Brazil, specializing in renting radio communication systems and security cameras (CCTV).",
     "abixRole": "I worked on developing components and new features for the company's internal management platform.",
     "abixPosition": "Software Engineering Intern",
-    "connect": "Want to chat? Send me an email to"
+    "connect": "Want to chat? Send me an email to",
+    "currencyConverterDescription": "Currency Converter Platform designed to provide real-time exchange rates. The frontend is built with TypeScript, React, and Tailwind CSS. The backend, developed using Flask and Python, powers the API, fetching data stored in a PostgreSQL database. Automation scripts handle daily updates by fetching, parsing, and inserting data into the database. The entire stack is containerized with Docker and deployed using platforms like Vercel and Render. Scheduling tools automate backend processes."
   }
 }

@@ -8,4 +8,5 @@ export interface TemplateStrings {
   abixRole: string;
   abixPosition: string;
   connect: string;
+  currencyConverterDescription: string;
 }

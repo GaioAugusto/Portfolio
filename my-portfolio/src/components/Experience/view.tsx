@@ -20,7 +20,7 @@ export const ExperienceView: ComponentType = ({
           {commonLocale.get("experience")}
         </h1>
 
-        <div className="flex flex-row justify-center items-center space-x-8">
+        <div className="flex flex-row justify-center items-stretch space-x-8 h-full">
           {/* Map over experiences and pass each one to Accordion */}
           {experiences.map((experience, index) => (
             <Accordion key={index} experience={experience} />
