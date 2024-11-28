@@ -17,7 +17,7 @@ export const About: ComponentType = () => {
       link.href = `${process.env.PUBLIC_URL}/curriculo.pdf`;
       link.download = "GaioSantos_Curriculo.pdf";
     } else {
-      link.href = `${process.env.PUBLIC_URL}/resume.pdf`;
+      link.href = `${process.env.PUBLIC_URL}/Resume.pdf`;
       link.download = "GaioSantos_Resume.pdf";
     }
     link.click();
