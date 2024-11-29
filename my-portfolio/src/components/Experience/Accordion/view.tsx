@@ -33,18 +33,26 @@ export const AccordionView: ComponentType = ({ experience }) => {
             }`}
             onClick={toggleAccordion}
           >
+            {/* Company Name on the Left */}
             <span className={`${theme.text} font-semibold text-lg`}>
               {experience.company}
             </span>
-            <span
-              className={`${
-                theme.selected_text
-              } transform transition-transform duration-300 ${
-                open ? "rotate-90" : ""
-              }`}
-            >
-              ❯
-            </span>
+
+            {/* Date and Arrow on the Right */}
+            <div className="flex items-center gap-2">
+              <span className={`${theme.text} font-semibold text-lg`}>
+                {experience.duration}
+              </span>
+              <span
+                className={`${
+                  theme.selected_text
+                } transform transition-transform duration-300 ${
+                  open ? "rotate-90" : ""
+                }`}
+              >
+                ❯
+              </span>
+            </div>
           </div>
 
           {/* Accordion Content */}
