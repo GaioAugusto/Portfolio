@@ -12,7 +12,10 @@
     "Iam": "Eu sou um ",
     "downloadCV": "Baixar currículo",
     "getInTouch": "Entre em contato",
-    "viewProject": "Ver projeto"
+    "viewProject": "Ver projeto",
+    "github": "Repositório Github",
+    "video": "Ver vídeo",
+    "deployed": "Versão implantada"
   },
   "templates": {
     "welcomeDescription": "Seja bem-vindo ao site oficial da BRASA UOFT",

@@ -1,5 +1,5 @@
 import { AboutViewProps } from "./types";
-import profilePic from "../../assets/images/profilePic.jpg";
+import bahenPic from "../../assets/images/bahenPic.jpeg";
 import listOfSkills from "./utilities/listOfSkills";
 import { DocumentTextIcon } from "@heroicons/react/16/solid";
 import { useLocale } from "../../contexts/Locale";
@@ -48,7 +48,7 @@ export const AboutView: ComponentType = ({ theme, handleDownload }) => {
         {/* Image Section */}
         <div className="flex-1 mt-8 md:mt-0">
           <img
-            src={profilePic}
+            src={bahenPic}
             alt="Profile"
             className="rounded-lg shadow-lg max-w-full h-auto"
           />

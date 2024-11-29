@@ -41,15 +41,27 @@ export const ProjectCardView: ComponentType = ({ theme, project }) => {
             ))}
           </div>
 
-          {/* View Project Button */}
-          <a
-            href={project.deployedUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 transition"
-          >
-            {project.buttonText}
-          </a>
+          {/* View Project Buttons */}
+          <div className="flex flex-wrap justify-center align-center gap-2 mb-4">
+            <a
+              href={project.deployedUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 transition"
+            >
+              {project.buttonText}
+            </a>
+            {project.buttonText2 && (
+              <a
+                href={project.githubUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 transition"
+              >
+                {project.buttonText2}
+              </a>
+            )}
+          </div>
         </div>
       </div>
     </div>

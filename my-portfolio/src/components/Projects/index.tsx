@@ -19,6 +19,7 @@ export const Projects: ComponentType = () => {
       description: templatesLocale.get("currencyConverterDescription"),
       imageUrl: currencyConverterScreenshot,
       deployedUrl: "https://currency-converter-front-one.vercel.app/",
+      githubUrl: "https://github.com/GaioAugusto/currencyConverter",
       skills: [
         "Python",
         "Flask",
@@ -31,23 +32,30 @@ export const Projects: ComponentType = () => {
         "Automation",
         "Scheduling",
       ],
-      buttonText: commonLocale.get("viewProject"),
+      buttonText: commonLocale.get("deployed"),
+      buttonText2: commonLocale.get("github"),
     },
     {
       title: "Parkour Racing Game",
       description: templatesLocale.get("parkourGameDescription"),
       imageUrl: parkourScreenshot,
-      deployedUrl: "https://github.com/rohan-modi/SplitScreenRacer",
+      deployedUrl:
+        "https://drive.google.com/file/d/1k5xWr4A1fzrSyDHc-mw7_wvZRGdILH_B/view?usp=sharing",
+      githubUrl: "https://github.com/rohan-modi/SplitScreenRacer",
       skills: ["C", "FPGA"],
-      buttonText: commonLocale.get("viewProject"),
+      buttonText: commonLocale.get("video"),
+      buttonText2: commonLocale.get("github"),
     },
     {
       title: "2D Collision simulator",
       description: templatesLocale.get("simulatorDescription"),
       imageUrl: simulatorScreenshot,
-      deployedUrl: "https://github.com/rohan-modi/SplitScreenRacer",
+      deployedUrl:
+        "https://drive.google.com/file/d/1UFXVXencTqUmVYphpS7v8KLf5pLfLy4h/view?usp=sharing",
+      githubUrl: "https://github.com/GaioAugusto/2d-Collision-Simulator",
       skills: ["C++"],
-      buttonText: commonLocale.get("viewProject"),
+      buttonText: commonLocale.get("video"),
+      buttonText2: commonLocale.get("github"),
     },
   ];
 

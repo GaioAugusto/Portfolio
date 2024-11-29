@@ -12,7 +12,10 @@
     "Iam": "I am a ",
     "downloadCV": "Download CV",
     "getInTouch": "Get in Touch",
-    "viewProject": "View project"
+    "viewProject": "View project",
+    "github": "Github Repository",
+    "video": "Watch video",
+    "deployed": "Deployed version"
   },
   "templates": {
     "welcomeDescription": "Be welcome to BRASA's UOFT official website",

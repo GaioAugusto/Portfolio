@@ -12,4 +12,7 @@ export interface CommonStrings {
   downloadCV: string;
   getInTouch: string;
   viewProject: string;
+  github: string;
+  video: string;
+  deployed: string;
 }
