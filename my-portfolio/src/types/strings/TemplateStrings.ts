@@ -10,4 +10,5 @@ export interface TemplateStrings {
   connect: string;
   currencyConverterDescription: string;
   parkourGameDescription: string;
+  simulatorDescription: string;
 }

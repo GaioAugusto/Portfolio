@@ -4,6 +4,7 @@ import { Project, ProjectsProps } from "./types";
 import { ProjectsView } from "./view";
 import parkourScreenshot from "../../assets/images/parkourScreenshot.png";
 import currencyConverterScreenshot from "../../assets/images/currencyConverterScreenshot.png";
+import simulatorScreenshot from "../../assets/images/simulatorScreenshot.webp";
 import { useLocale } from "../../contexts/Locale";
 
 type ComponentType = React.FC<ProjectsProps>;
@@ -40,7 +41,14 @@ export const Projects: ComponentType = () => {
       skills: ["C", "FPGA"],
       buttonText: commonLocale.get("viewProject"),
     },
-    // Add more projects as needed
+    {
+      title: "2D Collision simulator",
+      description: templatesLocale.get("simulatorDescription"),
+      imageUrl: simulatorScreenshot,
+      deployedUrl: "https://github.com/rohan-modi/SplitScreenRacer",
+      skills: ["C++"],
+      buttonText: commonLocale.get("viewProject"),
+    },
   ];
 
   return <ProjectsView theme={theme} projects={projects} />;
