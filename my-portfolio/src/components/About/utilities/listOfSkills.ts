@@ -4,6 +4,7 @@ const listOfSkills = () => [
   "React.js",
   "Next.js",
   "Python",
+  "Flask",
   "C/C++",
   "HTML",
   "TailwindCSS",
