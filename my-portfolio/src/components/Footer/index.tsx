@@ -3,7 +3,6 @@ import { getTheme } from "../../styles/theme";
 import { FooterProps } from "./types";
 import { FooterView } from "./view";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import emailjs from "emailjs-com";
 
 type ComponentType = React.FC<FooterProps>;
 export const Footer: ComponentType = () => {

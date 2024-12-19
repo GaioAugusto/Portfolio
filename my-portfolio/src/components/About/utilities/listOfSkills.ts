@@ -9,6 +9,7 @@ const listOfSkills = () => [
   "HTML",
   "TailwindCSS",
   "CSS",
+  "PostgreSQL",
   "Git",
   "Azure",
   "Jira",
