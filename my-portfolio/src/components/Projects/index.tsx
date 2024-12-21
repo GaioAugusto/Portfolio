@@ -5,6 +5,7 @@ import { ProjectsView } from "./view";
 import parkourScreenshot from "../../assets/images/parkourScreenshot.png";
 import currencyConverterScreenshot from "../../assets/images/currencyConverterScreenshot.png";
 import simulatorScreenshot from "../../assets/images/simulatorScreenshot.webp";
+import brasaWebsiteScreenshot from "../../assets/images/brasaWebsiteScreenshot.png";
 import { useLocale } from "../../contexts/Locale";
 
 type ComponentType = React.FC<ProjectsProps>;
@@ -55,6 +56,16 @@ export const Projects: ComponentType = () => {
       githubUrl: "https://github.com/GaioAugusto/2d-Collision-Simulator",
       skills: ["C++"],
       buttonText: commonLocale.get("video"),
+      buttonText2: commonLocale.get("github"),
+    },
+    {
+      title: "BRASA UofT Website",
+      description: templatesLocale.get("brasaWebsiteDescription"),
+      imageUrl: brasaWebsiteScreenshot,
+      deployedUrl: "https://brasa-website.vercel.app/",
+      githubUrl: "https://github.com/GaioAugusto/brasa-website",
+      skills: ["Typescript", "React", "Node.js", "Express.js", "TailwindCSS"],
+      buttonText: commonLocale.get("deployed"),
       buttonText2: commonLocale.get("github"),
     },
   ];

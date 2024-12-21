@@ -11,4 +11,5 @@ export interface TemplateStrings {
   currencyConverterDescription: string;
   parkourGameDescription: string;
   simulatorDescription: string;
+  brasaWebsiteDescription: string;
 }
