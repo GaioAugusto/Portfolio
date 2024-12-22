@@ -37,6 +37,16 @@ export const Projects: ComponentType = () => {
       buttonText2: commonLocale.get("github"),
     },
     {
+      title: "BRASA UofT Website",
+      description: templatesLocale.get("brasaWebsiteDescription"),
+      imageUrl: brasaWebsiteScreenshot,
+      deployedUrl: "https://brasa-website.vercel.app/",
+      githubUrl: "https://github.com/GaioAugusto/brasa-website",
+      skills: ["Typescript", "React", "Node.js", "Express.js", "TailwindCSS"],
+      buttonText: commonLocale.get("deployed"),
+      buttonText2: commonLocale.get("github"),
+    },
+    {
       title: "Parkour Racing Game",
       description: templatesLocale.get("parkourGameDescription"),
       imageUrl: parkourScreenshot,
@@ -56,16 +66,6 @@ export const Projects: ComponentType = () => {
       githubUrl: "https://github.com/GaioAugusto/2d-Collision-Simulator",
       skills: ["C++"],
       buttonText: commonLocale.get("video"),
-      buttonText2: commonLocale.get("github"),
-    },
-    {
-      title: "BRASA UofT Website",
-      description: templatesLocale.get("brasaWebsiteDescription"),
-      imageUrl: brasaWebsiteScreenshot,
-      deployedUrl: "https://brasa-website.vercel.app/",
-      githubUrl: "https://github.com/GaioAugusto/brasa-website",
-      skills: ["Typescript", "React", "Node.js", "Express.js", "TailwindCSS"],
-      buttonText: commonLocale.get("deployed"),
       buttonText2: commonLocale.get("github"),
     },
   ];

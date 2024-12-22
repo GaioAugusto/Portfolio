@@ -30,6 +30,6 @@
     "currencyConverterDescription": "Plataforma de Conversão de Moedas projetada para fornecer taxas de câmbio em tempo real. O frontend é desenvolvido com TypeScript, React e Tailwind CSS. O backend, criado com Flask e Python, alimenta a API, buscando dados armazenados em um banco de dados PostgreSQL. Scripts de automação gerenciam atualizações diárias, buscando, processando e inserindo dados no banco de dados. Containerizado com Docker e implantado em Vercel e Render. Ferramentas de scheduling automatizam os processos do backend.",
     "parkourGameDescription": "Jogo para 2 jogadores com tela dividida em C, feito para ser jogado num DE1-SoC board. Usa speakers para efeitos sonoros, monitor VGA com double buffering, e teclado com entrada PS2. A documentação no Github explica como simular na sua máquina.",
     "simulatorDescription": "Um simulador de física 2D que ilustra colisões elásticas entre objetos do mesmo formato e massa. O projeto conta com uma GUI interativa com controles pra ajustar diversos parâmetrs como velocidade e número de objetos.",
-    "brasaWebsiteDescription": "Site oficial da Associação de Estudantes Brasileiros (BRASA) na Universidade de Toronto"
+    "brasaWebsiteDescription": "Site oficial da Associação de Estudantes Brasileiros (BRASA) na Universidade de Toronto. O frontend foi construído usando Typescript, React e TailwindCSS. O backend, por outro lado, foi feito com Express.js e consiste em um endpoint que envia respostas de um formulário diretamente pro email da organização."
   }
 }

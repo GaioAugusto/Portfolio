@@ -16,12 +16,12 @@ export const ExperienceView: ComponentType = ({
       className={`py-16 px-6 md:px-12 lg:px-24 ${theme.background} theme-transition`}
     >
       <div className="max-w-screen-lg mx-auto">
-        <h1 className={`header ${theme.text}`}>
+        <h1 className={`header ${theme.text} text-center mb-8`}>
           {commonLocale.get("experience")}
         </h1>
 
-        <div className="flex flex-row justify-center items-stretch space-x-8 h-full">
-          {/* Map over experiences and pass each one to Accordion */}
+        {/* Grid layout: 1 column on mobile, 2 columns on md+ screens */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 justify-items-center">
           {experiences.map((experience, index) => (
             <Accordion key={index} experience={experience} />
           ))}
