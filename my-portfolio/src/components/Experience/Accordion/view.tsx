@@ -39,7 +39,7 @@ export const AccordionView: ComponentType = ({ experience }) => {
             onClick={toggleAccordion}
           >
             {/* Left: Company Name */}
-            <span className={`${theme.text} font-semibold text-lg`}>
+            <span className={`${theme.text} font-semibold text-lg break-words`}>
               {experience.company}
             </span>
 
