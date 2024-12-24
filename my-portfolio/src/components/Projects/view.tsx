@@ -12,7 +12,9 @@ export const ProjectsView: ComponentType = ({ theme, ...props }) => {
       className={`flex justify-center py-16 px-6 md:px-12 lg:px-24 ${theme.background} theme-transition`}
     >
       <div className="max-w-screen-lg mx-auto">
-        <h1 className={`header ${theme.text} text-center`}>
+        <h1
+          className={`header ${theme.text} text-center sm:text-3xl md:text-7xl`}
+        >
           {commonLocale.get("projects")}
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

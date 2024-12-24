@@ -12,8 +12,8 @@ export const FooterView: ComponentType = ({ socialLinks, theme }) => {
         className={`${theme.background} ${theme.text} py-10 id-#contact theme-transition`}
       >
         {/* Top Section */}
-        <div className="max-w-screen-lg mx-auto text-center mb-6">
-          <h2 className={`header ${theme.text}`}>
+        <div className="max-w-screen-lg mx-auto text-center mb-6 sm:text-3xl">
+          <h2 className={`header ${theme.text} sm:text-3xl md:text-7xl`}>
             {commonLocale.get("getInTouch")}
           </h2>
           <p className={`text-2xl ${theme.text}`}>
