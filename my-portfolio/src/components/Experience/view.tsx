@@ -17,7 +17,7 @@ export const ExperienceView: ComponentType = ({
     >
       <div className="max-w-screen-lg mx-auto">
         <h1
-          className={`header ${theme.text} text-center mb-8 text-2xl sm:text-3xl md:text-4xl`}
+          className={`header ${theme.text} text-center mb-8 sm:text-3xl md:text-4xl`}
         >
           {commonLocale.get("experience")}
         </h1>
