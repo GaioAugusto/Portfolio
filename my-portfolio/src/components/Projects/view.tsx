@@ -14,6 +14,7 @@ export const ProjectsView: ComponentType = ({ theme, ...props }) => {
       <div className="max-w-screen-lg mx-auto">
         <h1
           className={`header ${theme.text} text-center sm:text-3xl md:text-7xl`}
+          data-aos="fade-up"
         >
           {commonLocale.get("projects")}
         </h1>

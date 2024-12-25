@@ -8,6 +8,7 @@ export const ProjectCardView: ComponentType = ({ theme, project }) => {
   return (
     <div
       className={`rounded-lg bg-gradient-to-r ${gradient} p-0.5 shadow-lg h-full`}
+      data-aos="fade-up"
     >
       {/* Inner content with a solid background */}
       <div
