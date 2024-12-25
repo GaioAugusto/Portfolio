@@ -17,7 +17,7 @@ export const AccordionView: ComponentType = ({ experience }) => {
   };
 
   return (
-    <div className="relative w-full">
+    <div className="relative w-full" data-aos="fade-up">
       {/* Gradient Border */}
       <div
         className={`flex flex-col rounded-lg bg-gradient-to-r ${gradient} p-0.5 shadow-lg`}

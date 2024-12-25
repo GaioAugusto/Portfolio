@@ -13,7 +13,10 @@ export const AboutView: ComponentType = ({ theme, handleDownload }) => {
       id="about"
       className={`py-16 px-6 md:px-12 lg:px-24 ${theme.background} transition-colors duration-500 ease-out`}
     >
-      <div className="max-w-screen-lg mx-auto flex flex-col md:flex-row items-center md:space-x-12">
+      <div
+        className="max-w-screen-lg mx-auto flex flex-col md:flex-row items-center md:space-x-12"
+        data-aos="fade-up"
+      >
         <div className="flex-1">
           <h2 className={`text-4xl ${theme.text} font-bold mb-6`}>
             {commonLocale.get("about")}
