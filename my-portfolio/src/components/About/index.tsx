@@ -14,10 +14,10 @@ export const About: ComponentType = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
     if (locale === "pt-BR") {
-      link.href = `${process.env.PUBLIC_URL}/curriculo.pdf`;
+      link.href = `${process.env.PUBLIC_URL}/curriculo_GaioSantos.pdf`;
       link.download = "GaioSantos_Curriculo.pdf";
     } else {
-      link.href = `${process.env.PUBLIC_URL}/Resume.pdf`;
+      link.href = `${process.env.PUBLIC_URL}/Resume_GaioSantos.pdf`;
       link.download = "GaioSantos_Resume.pdf";
     }
     link.click();
