@@ -7,12 +7,18 @@ import currencyConverterScreenshot from "../../assets/images/currencyConverterSc
 import simulatorScreenshot from "../../assets/images/simulatorScreenshot.webp";
 import brasaWebsiteScreenshot from "../../assets/images/brasaWebsiteScreenshot.png";
 import { useLocale } from "../../contexts/Locale";
+import { useEffect } from "react";
+import AOS from "aos";
 
 type ComponentType = React.FC<ProjectsProps>;
 export const Projects: ComponentType = () => {
   const { isDarkMode } = useDarkMode();
   const theme = getTheme(isDarkMode);
   const { commonLocale, templatesLocale } = useLocale();
+
+  useEffect(()=>{
+    AOS.refresh();
+  }, [isDarkMode]);
 
   const projects: Project[] = [
     {
