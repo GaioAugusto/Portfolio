@@ -25,10 +25,6 @@ Welcome to my **personal portfolio website**! Built with **React, TypeScript, an
 
 ## 📸 Screenshots
 
-![Dark Mode](/my-portfolio/public/screenshot1.png)
-
-| Light Mode                            | Dark Mode                           |
-| ------------------------------------- | ----------------------------------- |
-| ![Light Mode](path/to/light-mode.png) | ![Dark Mode](path/to/dark-mode.png) |
-
+<img src="/my-portfolio/public/screenshot1.png" alt="Dark Mode" width="500"/>
+<img src="/my-portfolio/public/screenshot2.png" alt="Light Mode" width="500"/>
 ---
