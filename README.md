@@ -27,4 +27,3 @@ Welcome to my **personal portfolio website**! Built with **React, TypeScript, an
 
 <img src="/my-portfolio/public/screenshot1.png" alt="Dark Mode" width="500"/>
 <img src="/my-portfolio/public/screenshot2.png" alt="Light Mode" width="500"/>
----
