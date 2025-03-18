@@ -6,14 +6,15 @@ Welcome to my **personal portfolio website**! Built with **React, TypeScript, an
 
 ---
 
-## 📌 Features  
+## 📌 Features
 
-✅ *Responsive Design* - Works across all devices (desktop, tablet, mobile)  
+✅ _Responsive Design_ - Works across all devices (desktop, tablet, mobile)  
 ✅ **Dark Mode** - Toggle between light and dark themes  
 ✅ **Multi-Language Support** - English and Portuguese translations  
 ✅ **Interactive UI** - Smooth animations and transitions  
 ✅ **Projects Showcase** - View details of my top projects  
-✅ **Contact Form** - Reach out to me via email  
+✅ **Contact Form** - Reach out to me via email
+
 ---
 
 ## 🛠️ Built With
@@ -22,10 +23,12 @@ Welcome to my **personal portfolio website**! Built with **React, TypeScript, an
 
 ---
 
-## 📸 Screenshots  
+## 📸 Screenshots
 
-| Light Mode  | Dark Mode  |
-|-------------|-------------|
+![Dark Mode](/my-portfolio/public/screenshot1.png)
+
+| Light Mode                            | Dark Mode                           |
+| ------------------------------------- | ----------------------------------- |
 | ![Light Mode](path/to/light-mode.png) | ![Dark Mode](path/to/dark-mode.png) |
 
 ---
