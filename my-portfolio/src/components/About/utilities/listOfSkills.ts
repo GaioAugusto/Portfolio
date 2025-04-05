@@ -11,7 +11,7 @@ const listOfSkills = () => [
   "CSS",
   "PostgreSQL",
   "Git",
-  "Azure",
+  "PyTorch",
   "Jira",
   "Linux",
   "Postman",

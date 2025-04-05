@@ -6,6 +6,7 @@ import parkourScreenshot from "../../assets/images/parkourScreenshot.png";
 import currencyConverterScreenshot from "../../assets/images/currencyConverterScreenshot.png";
 import simulatorScreenshot from "../../assets/images/simulatorScreenshot.webp";
 import brasaWebsiteScreenshot from "../../assets/images/brasaWebsiteScreenshot.png";
+import breastCancer from "../../assets/images/breastCancer.png"
 import { useLocale } from "../../contexts/Locale";
 import { useEffect } from "react";
 import AOS from "aos";
@@ -21,6 +22,19 @@ export const Projects: ComponentType = () => {
   }, [isDarkMode]);
 
   const projects: Project[] = [
+    {
+      title: "Breast Cancer Detection",
+      description: templatesLocale.get("breastCancerDescription"),
+      imageUrl: breastCancer,
+      githubUrl: "https://github.com/GaioAugusto/Breast-Cancer-Detection",
+      skills: [
+        "Python",
+        "Pytorch",
+        "NumPy",
+        "matplotlib",
+      ],
+      buttonText2: commonLocale.get("github"),
+    },
     {
       title: "Currency Converter",
       description: templatesLocale.get("currencyConverterDescription"),

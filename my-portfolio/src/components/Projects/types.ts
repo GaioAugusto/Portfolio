@@ -4,10 +4,10 @@ export interface Project {
   title: string;
   description: string;
   imageUrl: string;
-  deployedUrl: string;
+  deployedUrl?: string;
   githubUrl: string;
   skills: string[];
-  buttonText: string;
+  buttonText?: string;
   buttonText2?: string;
 }
 
