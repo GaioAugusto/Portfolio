@@ -12,4 +12,5 @@ export interface TemplateStrings {
   parkourGameDescription: string;
   simulatorDescription: string;
   brasaWebsiteDescription: string;
+  breastCancerDescription: string;
 }
