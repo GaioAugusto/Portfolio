@@ -3,10 +3,16 @@ import nodemailer from "nodemailer";
 export default async function handler(req, res) {
 
   if (req.method === "OPTIONS") {
-    // This is just to pass the preflight check
+    // Optional: add CORS headers
+    console.log("contact.js --> Handling OPTIONS");
+    res.setHeader("Access-Control-Allow-Origin", "*");
+    res.setHeader("Access-Control-Allow-Methods", "POST, OPTIONS");
+    res.setHeader("Access-Control-Allow-Headers", "Content-Type");
     return res.status(200).end();
   }
+
   if (req.method !== "POST") {
+    console.log("contact.js --> Method not allowed:", req.method);
     return res.status(405).send("Method Not Allowed");
   }
 
