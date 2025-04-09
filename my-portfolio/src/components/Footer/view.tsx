@@ -1,11 +1,20 @@
 import { useLocale } from "../../contexts/Locale";
-import { FooterViewProps, socialMedia } from "./types";
+import { ContactForm, FooterViewProps, socialMedia } from "./types";
 
 type ComponentType = React.FC<FooterViewProps>;
-export const FooterView: ComponentType = ({ socialLinks, theme }) => {
+export const FooterView: ComponentType = ({ socialLinks, theme, ...props }) => {
   const { commonLocale, templatesLocale } = useLocale();
   // text-gray-300 is good for first classname text
   // for want to chat was using text-gray-400
+
+    const data: ContactForm = {
+      firstName: "Henrique",
+      lastName: "Braz",
+      email: "gaioaugusto23@gmail.com",
+      subject: "Testing the subject",
+      message: "Hello ninja boy"
+    }
+
   return (
     <section id="contact">
       <footer
@@ -42,6 +51,8 @@ export const FooterView: ComponentType = ({ socialLinks, theme }) => {
               <socialMedia.icon className="h-6 w-6" />
             </a>
           ))}
+          
+          <button onClick={() => props.handleSubmit(data)}>hello</button>          
         </div>
 
         {/* Bottom Links */}

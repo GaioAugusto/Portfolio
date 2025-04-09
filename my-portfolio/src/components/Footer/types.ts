@@ -10,4 +10,14 @@ export interface FooterProps {}
 export interface FooterViewProps {
   socialLinks: socialMedia[];
   theme: Theme;
+  sendData: (data: ContactForm) => Promise<void>;
+  handleSubmit: (data: ContactForm) => void
+}
+
+export interface ContactForm {
+  firstName: string;
+  lastName: string;
+  email: string;
+  subject: string;
+  message: string;
 }
