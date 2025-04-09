@@ -1,0 +1,23 @@
+{
+  "builds": [
+    {
+      "src": "api/**/*.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "my-portfolio/package.json",
+      "use": "@vercel/static-build",
+      "config": { "distDir": "build" }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "api/$1.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "my-portfolio/$1"
+    }
+  ]
+}
