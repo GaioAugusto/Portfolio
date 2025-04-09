@@ -51,9 +51,7 @@ export const FooterView: ComponentType = ({ socialLinks, theme, ...props }) => {
               <socialMedia.icon className="h-6 w-6" />
             </a>
           ))}
-          
-          <button onClick={() => props.handleSubmit(data)}>hello</button>          
-        </div>
+                  </div>
 
         {/* Bottom Links */}
         <div className="text-center text-gray-400 text-sm border-t border-gray-600 pt-4">
