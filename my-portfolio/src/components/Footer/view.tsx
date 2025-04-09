@@ -7,13 +7,13 @@ export const FooterView: ComponentType = ({ socialLinks, theme, ...props }) => {
   // text-gray-300 is good for first classname text
   // for want to chat was using text-gray-400
 
-    const data: ContactForm = {
-      firstName: "Henrique",
-      lastName: "Braz",
-      email: "gaioaugusto23@gmail.com",
-      subject: "Testing the subject",
-      message: "Hello ninja boy"
-    }
+    // const data: ContactForm = {
+    //   firstName: "Henrique",
+    //   lastName: "Braz",
+    //   email: "gaioaugusto23@gmail.com",
+    //   subject: "Testing the subject",
+    //   message: "Hello ninja boy"
+    // }
 
   return (
     <section id="contact">
