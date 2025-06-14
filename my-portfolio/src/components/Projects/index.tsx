@@ -6,7 +6,7 @@ import parkourScreenshot from "../../assets/images/parkourScreenshot.png";
 import currencyConverterScreenshot from "../../assets/images/currencyConverterScreenshot.png";
 import simulatorScreenshot from "../../assets/images/simulatorScreenshot.webp";
 import brasaWebsiteScreenshot from "../../assets/images/brasaWebsiteScreenshot.png";
-import breastCancer from "../../assets/images/breastCancer.png"
+import breastCancer from "../../assets/images/breastCancer.png";
 import { useLocale } from "../../contexts/Locale";
 import { useEffect } from "react";
 import AOS from "aos";
@@ -17,7 +17,7 @@ export const Projects: ComponentType = () => {
   const theme = getTheme(isDarkMode);
   const { commonLocale, templatesLocale } = useLocale();
 
-  useEffect(()=>{
+  useEffect(() => {
     AOS.refresh();
   }, [isDarkMode]);
 
@@ -27,19 +27,15 @@ export const Projects: ComponentType = () => {
       description: templatesLocale.get("breastCancerDescription"),
       imageUrl: breastCancer,
       githubUrl: "https://github.com/GaioAugusto/Breast-Cancer-Detection",
-      skills: [
-        "Python",
-        "Pytorch",
-        "NumPy",
-        "matplotlib",
-      ],
+      skills: ["Python", "Pytorch", "NumPy", "matplotlib"],
       buttonText2: commonLocale.get("github"),
     },
     {
       title: "Currency Converter",
       description: templatesLocale.get("currencyConverterDescription"),
       imageUrl: currencyConverterScreenshot,
-      deployedUrl: "https://currency-converter-front-one.vercel.app/",
+      deployedUrl:
+        "https://drive.google.com/file/d/1g0drUF8_HsytvFovyNgYlL9P6HWmYpoc/view?usp=sharing",
       githubUrl: "https://github.com/GaioAugusto/currencyConverter",
       skills: [
         "Python",
@@ -53,7 +49,7 @@ export const Projects: ComponentType = () => {
         "Automation",
         "Scheduling",
       ],
-      buttonText: commonLocale.get("deployed"),
+      buttonText: commonLocale.get("video"),
       buttonText2: commonLocale.get("github"),
     },
     {
