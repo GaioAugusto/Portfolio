@@ -31,6 +31,16 @@ export const Projects: ComponentType = () => {
       buttonText2: commonLocale.get("github"),
     },
     {
+      title: "BRASA UofT Website",
+      description: templatesLocale.get("brasaWebsiteDescription"),
+      imageUrl: brasaWebsiteScreenshot,
+      deployedUrl: "https://brasa-website.vercel.app/",
+      githubUrl: "https://github.com/GaioAugusto/brasa-website",
+      skills: ["Typescript", "React", "Node.js", "Express.js", "TailwindCSS"],
+      buttonText: commonLocale.get("deployed"),
+      buttonText2: commonLocale.get("github"),
+    },
+    {
       title: "Currency Converter",
       description: templatesLocale.get("currencyConverterDescription"),
       imageUrl: currencyConverterScreenshot,
@@ -50,16 +60,6 @@ export const Projects: ComponentType = () => {
         "Scheduling",
       ],
       buttonText: commonLocale.get("video"),
-      buttonText2: commonLocale.get("github"),
-    },
-    {
-      title: "BRASA UofT Website",
-      description: templatesLocale.get("brasaWebsiteDescription"),
-      imageUrl: brasaWebsiteScreenshot,
-      deployedUrl: "https://brasa-website.vercel.app/",
-      githubUrl: "https://github.com/GaioAugusto/brasa-website",
-      skills: ["Typescript", "React", "Node.js", "Express.js", "TailwindCSS"],
-      buttonText: commonLocale.get("deployed"),
       buttonText2: commonLocale.get("github"),
     },
     {
