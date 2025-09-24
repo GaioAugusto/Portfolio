@@ -1,6 +1,7 @@
 const listOfSkills = () => [
   "TypeScript",
-  "JavaScript",
+  // "JavaScript",
+  ".NET",
   "React.js",
   "Next.js",
   "Python",
